@@ -1,0 +1,108 @@
+.WhoWeAre_Head{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+ .TitleSection {
+position: relative;
+}
+ .BackGround_Title {
+    position: relative;
+    font-size: 150px;
+    color: #eee;
+    padding: 20px 6px;
+    font-weight: 600;
+
+}
+ .Title {
+    position: absolute;
+    top: 45%;
+    right: 45%;
+
+}
+ .Title h3 {
+    font-size: 55px;
+    
+}
+
+
+.WhoWeAre_Head .WhoWeAre_Desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Btn{
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: 1px solid #eee;
+    color: black;
+    border-radius: 10px;
+
+}
+.Btn:hover{
+    background-color: #f7941d;
+    color: bisque;
+
+}
+.WhoWeAre_Head .WhoWeAre_Desc  p {
+    font-size: 20px;
+}
+
+
+    /*About us */
+    .About_us{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 50px;
+    
+
+    }
+
+    .About_info {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .About_info .information {}
+
+    .About_info .information  p { 
+        margin: 10px 0;
+    }
+
+    .About_info .information  p span {
+        font-weight: bold;
+
+    }
+
+
+
+    /*Our Comapines*/
+    .OurServices{
+        text-align: center;
+    }
+
+    .Services_Cards{
+
+
+    }
+
+    .Card{
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+}
