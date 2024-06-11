@@ -177,12 +177,6 @@ content {
 /////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
 .preloader {
   background-color: white;
   position: fixed;
@@ -294,7 +288,7 @@ header {
   width: 100%;
   z-index: 1024;
   transition: var(--transition);
-  height: 76px;
+  height: 80px;
   background-color: var(--whiteColor);
   & .inner {
     width: min(100% - 8px, 1440px);
@@ -318,22 +312,26 @@ header {
     }
     .navbar {
       // flex: 4;
-      background-color: var(--mainColor10);
       // border: 1px solid var(--mainColor20);
-      border-radius: 100px;
-      padding: 6px;
+      border-radius: 20px;
+      padding: 10px 35px;
       text-align: center;
       .navbar-nav {
         flex: 1;
         .navLink {
           flex: 1;
           white-space: nowrap;
-          padding: 8px 16px;
+          padding: 10px 22px;
           color: var(--darkColor);
+          position: relative;
+          font-size: 20px;
           &.active {
             background-color: var(--mainColor);
-            color: var(--whiteColor);
             border-radius: 100px;
+          }
+          &:hover{
+            color:var(--mainColor) ;
+
           }
         }
       }
@@ -390,12 +388,13 @@ header {
       }
     }
     .moreActions {
-      padding: 5px;
+      padding: 8px 10px;
       flex: 1;
       display: flex;
       justify-content: flex-end;
       gap: 8px;
       align-items: center;
+
       @media screen and (max-width: 992px) {
         flex: unset;
       }
@@ -404,15 +403,15 @@ header {
         display: flex;
         align-items: center;
         gap: 8px;
-        padding: 8px;
+        padding: 14px 28px;
         justify-content: center;
         background-color: var(--mainColor10);
-        height: 40px;
-        width: 40px;
-        border-radius: 100px;
         transition: var(--transition);
         font-weight: bold;
         position: relative;
+        border-radius: 4px;
+        font-size: 18px;
+
         img {
           min-width: 16px;
           height: 16px;

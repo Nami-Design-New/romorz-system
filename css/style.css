@@ -308,7 +308,7 @@ header {
   width: 100%;
   z-index: 1024;
   transition: var(--transition);
-  height: 76px;
+  height: 80px;
   background-color: var(--whiteColor);
 }
 header .inner {
@@ -335,9 +335,8 @@ header .inner .navbar-brand img {
      object-position: right;
 }
 header .inner .navbar {
-  background-color: var(--mainColor10);
-  border-radius: 100px;
-  padding: 6px;
+  border-radius: 20px;
+  padding: 10px 35px;
   text-align: center;
 }
 header .inner .navbar .navbar-nav {
@@ -346,13 +345,17 @@ header .inner .navbar .navbar-nav {
 header .inner .navbar .navbar-nav .navLink {
   flex: 1;
   white-space: nowrap;
-  padding: 8px 16px;
+  padding: 10px 22px;
   color: var(--darkColor);
+  position: relative;
+  font-size: 20px;
 }
 header .inner .navbar .navbar-nav .navLink.active {
   background-color: var(--mainColor);
-  color: var(--whiteColor);
   border-radius: 100px;
+}
+header .inner .navbar .navbar-nav .navLink:hover {
+  color: var(--mainColor);
 }
 header .inner .navbar .logo {
   display: none;
@@ -409,7 +412,7 @@ header .inner .navbar .logo img {
   }
 }
 header .inner .moreActions {
-  padding: 5px;
+  padding: 8px 10px;
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -426,15 +429,14 @@ header .inner .moreActions .link {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px;
+  padding: 14px 28px;
   justify-content: center;
   background-color: var(--mainColor10);
-  height: 40px;
-  width: 40px;
-  border-radius: 100px;
   transition: var(--transition);
   font-weight: bold;
   position: relative;
+  border-radius: 4px;
+  font-size: 18px;
 }
 header .inner .moreActions .link img {
   min-width: 16px;
